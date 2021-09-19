@@ -1,18 +1,42 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
-import DatePickers from '../Components/DateTimePicker';
+import ContainedButtons from '../Components/Button';
+import SwipeableTextMobileStepper from '../Components/carousel';
+import AutoGridNoWrap from '../Components/Maxsavingdeal';
+import SingleLineImageList from '../Components/Imagelist';
+
+
+
+
+
 
 export default function Home() {
   return (
     <React.Fragment>
         <Container fixed>
             <p>
-                Welcome to your web application. Make something beautiful!
+                
             </p>
             <p>
-                To get started, edit <code>src/App.js</code>, save, and reload this page.
+              
             </p>
-            <DatePickers/>
+              
+            <ContainedButtons/>
+            <SwipeableTextMobileStepper/>
+            <SwipeableTextMobileStepper/>
+            <SwipeableTextMobileStepper/>
+            <AutoGridNoWrap/>
+            <SingleLineImageList/>
+            <AutoGridNoWrap/>
+            <SwipeableTextMobileStepper/>
+            <AutoGridNoWrap/>
+            
+
+            
+            
+          
+            
+            
         </Container>
     </React.Fragment>
   );
