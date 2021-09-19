@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/aayushiproject/static/css/main.af840fbd.chunk.css",
-    "main.js": "/aayushiproject/static/js/main.dd0438f5.chunk.js",
-    "main.js.map": "/aayushiproject/static/js/main.dd0438f5.chunk.js.map",
+    "main.js": "/aayushiproject/static/js/main.d6c5054e.chunk.js",
+    "main.js.map": "/aayushiproject/static/js/main.d6c5054e.chunk.js.map",
     "runtime-main.js": "/aayushiproject/static/js/runtime-main.a0c2ec2b.js",
     "runtime-main.js.map": "/aayushiproject/static/js/runtime-main.a0c2ec2b.js.map",
-    "static/js/2.7181640b.chunk.js": "/aayushiproject/static/js/2.7181640b.chunk.js",
-    "static/js/2.7181640b.chunk.js.map": "/aayushiproject/static/js/2.7181640b.chunk.js.map",
+    "static/js/2.9ae20499.chunk.js": "/aayushiproject/static/js/2.9ae20499.chunk.js",
+    "static/js/2.9ae20499.chunk.js.map": "/aayushiproject/static/js/2.9ae20499.chunk.js.map",
     "index.html": "/aayushiproject/index.html",
     "static/css/main.af840fbd.chunk.css.map": "/aayushiproject/static/css/main.af840fbd.chunk.css.map",
-    "static/js/2.7181640b.chunk.js.LICENSE.txt": "/aayushiproject/static/js/2.7181640b.chunk.js.LICENSE.txt",
-    "static/media/logo.355735b3.svg": "/aayushiproject/static/media/logo.355735b3.svg"
+    "static/js/2.9ae20499.chunk.js.LICENSE.txt": "/aayushiproject/static/js/2.9ae20499.chunk.js.LICENSE.txt",
+    "static/media/apple.37fb9507.jpg": "/aayushiproject/static/media/apple.37fb9507.jpg",
+    "static/media/colgate.d4993ce9.jpg": "/aayushiproject/static/media/colgate.d4993ce9.jpg",
+    "static/media/logo.355735b3.svg": "/aayushiproject/static/media/logo.355735b3.svg",
+    "static/media/maggi.43495369.jpg": "/aayushiproject/static/media/maggi.43495369.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a0c2ec2b.js",
-    "static/js/2.7181640b.chunk.js",
+    "static/js/2.9ae20499.chunk.js",
     "static/css/main.af840fbd.chunk.css",
-    "static/js/main.dd0438f5.chunk.js"
+    "static/js/main.d6c5054e.chunk.js"
   ]
 }
