@@ -1,23 +1,33 @@
 .App {
   text-align: center;
+  
+  
 }
+
 
 .App-logo {
   height: 10vmin;
 }
 
 .App-header {
-  background-color: #282c34;
-  color: white;
+  background-color:(red,blue)
+  
+ ;
+  position: sticky;
 }
 
+img {
+  border-radius: 35px 35px 35px 35px;
+  
+}
+
+
 .App-footer {
-  background-color: #282c34;
-  color: white;
-  position: fixed;
+  background-color:rgb(189, 135, 135);
+  color: rgb(14, 13, 13);
+ 
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
 }
-

@@ -10,11 +10,11 @@ import image from '../Assets/maggi.jpg'
 import image2 from '../Assets/apple.jpg'
 import image3 from '../Assets/colgate.jpg'
 import image4 from '../Assets/maggi.jpg'
-import BasicButtonGroup from './Buttongrp';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: 'cent',
+    display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     overflow: 'hidden',
@@ -69,7 +69,7 @@ const useStyles = makeStyles((theme) => ({
    
   ];
  
-export default function SingleLineImageList() {
+export default function TopsingleLineImageList() {
   const classes = useStyles();
 
   return (
@@ -87,7 +87,7 @@ export default function SingleLineImageList() {
               actionIcon={
                 <IconButton aria-label={`star ${item.title}`}>
                   <StarBorderIcon className={classes.title} />
-                  <BasicButtonGroup/>
+                 
                 </IconButton>
               }
             />
@@ -105,7 +105,7 @@ export default function SingleLineImageList() {
               actionIcon={
                 <IconButton aria-label={`star ${item.title}`}>
                   <StarBorderIcon className={classes.title} />
-                  <BasicButtonGroup/>
+                
                 </IconButton>
               }
             />
@@ -123,7 +123,7 @@ export default function SingleLineImageList() {
               actionIcon={
                 <IconButton aria-label={`star ${item.title}`}>
                   <StarBorderIcon className={classes.title} />
-                  <BasicButtonGroup/>
+                
                 </IconButton>
               }
             />
@@ -141,7 +141,7 @@ export default function SingleLineImageList() {
               actionIcon={
                 <IconButton aria-label={`star ${item.title}`}>
                   <StarBorderIcon className={classes.title} />
-                  <BasicButtonGroup/>
+              
                 </IconButton>
               }
             />

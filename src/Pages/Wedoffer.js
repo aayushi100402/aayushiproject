@@ -1,8 +1,12 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
-import SimpleCard from '../Components/Wedcard';
+
 import TemporaryDrawer from '../Components/bottomdrawer';
-import ComplexGrid from '../Components/Items';
+
+import Wedcard from '../Components/Wedcard';
+
+import Grid from '@material-ui/core/Grid';
+import ComplexGrid2 from '../Components/item2';
 
 
 
@@ -16,42 +20,50 @@ import ComplexGrid from '../Components/Items';
 export default function Home() {
   return (
     <React.Fragment>
-        <Container fixed>
-            <p>
-                
-            </p>
-            <p>
-              
-            </p>
-              
-            <SimpleCard/>
-            <br/>
+      <Container fixed>
+
+        <Grid container spacing={1} align="center">
+          <Grid item xs={12} sm={12} md={12} xl={12}>
+            <Wedcard />
+          </Grid>
+        </Grid>
+        <Grid container spacing={1} align="center">
+          <Grid item xs={12} sm={12} md={12} xl={12}>
             Grocery
-            <br/>
-            <TemporaryDrawer/>
-            <ComplexGrid/>
-            <ComplexGrid/>
-            <ComplexGrid/>
-            <ComplexGrid/>
-            <ComplexGrid/>
-            <ComplexGrid/>
-            <ComplexGrid/>
-            <ComplexGrid/>
-            <ComplexGrid/>
-            <ComplexGrid/>
-            
-            
+          </Grid>
+        </Grid>
 
-            
-            
-            
+        <TemporaryDrawer />
+        <Grid container spacing={1} align="center">
+          <Grid item xs={12} sm={12} md={12} xl={12}>
+            <ComplexGrid2 />
+            <ComplexGrid2 />
+            <ComplexGrid2 />
+            <ComplexGrid2 />
+            <ComplexGrid2 />
+            <ComplexGrid2 />
+            <ComplexGrid2 />
+            <ComplexGrid2 />
+            <ComplexGrid2 />
+            <ComplexGrid2 />
 
-            
-            
-          
-            
-            
-        </Container>
+
+
+          </Grid>
+        </Grid>
+
+
+
+
+
+
+
+
+
+
+
+
+      </Container>
     </React.Fragment>
   );
 }

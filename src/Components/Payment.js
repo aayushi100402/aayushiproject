@@ -5,6 +5,8 @@ import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 
 
+
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -21,16 +23,25 @@ export default function FullWidthGrid() {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={3}>
-        <Grid item xs={12}>
+     
         
-          <Paper className={classes.paper}>$50-----------------------------------
-          <Button variant="outlined">Make Payment</Button></Paper>
-          
-        </Grid>
+          <Paper
         
+           className={classes.paper}>
+               <Grid container spacing={0} align="left">
+          <Grid item xs={12} sm={12} md={12} xl={12}>
+           Rs50
+           </Grid>
+                </Grid>
+        <Grid container spacing={0} align="right">
+                    <Grid item xs={12} sm={12} md={12} xl={12}>
 
-      </Grid>
+          <Button variant="outlined">Make Payment</Button>
+          </Grid>
+                </Grid>
+          </Paper>
+          
+      
     </div>
   );
 }

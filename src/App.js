@@ -13,16 +13,17 @@ import Wedoffer from './Pages/Wedoffer';
 
 
 
+
 function App() {
   return (
     <div className="App">
-      {/* Header (Navigation Bar) */}
+      
       <header className="App-header">
       <PrimarySearchAppBar/>
-      </header>
+       </header>
       
       {/* Router - Pages */}
-          <Switch>
+      <Switch>
             <Route path={process.env.PUBLIC_URL + '/'} exact > <Home/> </Route>
             <Route path={process.env.PUBLIC_URL + '/home'} > <Home/> </Route>
             <Route path={process.env.PUBLIC_URL + '/gallery'}  > <Gallery/> </Route>
@@ -30,12 +31,10 @@ function App() {
             <Route path={process.env.PUBLIC_URL + '/mycart'}  > <Mycart/> </Route>
                         
           </Switch>
-
-      <footer className="App-footer">
-        <Links/>
-       </footer>
+         
     </div>
   );
-  }
+}
+
 
 export default App;

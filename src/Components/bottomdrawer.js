@@ -7,6 +7,7 @@ import List from '@material-ui/core/List';
 import CheckboxList from './Checkboxlist';
 
 
+
 const useStyles = makeStyles({
   list: {
     width: 250,
@@ -15,7 +16,7 @@ const useStyles = makeStyles({
     width: 'auto',
   },
 });
-
+ {/* Drawers on Wednesday offer page for filter and sort by options */}
 export default function TemporaryDrawer() {
   const classes = useStyles();
   const [state, setState] = React.useState({

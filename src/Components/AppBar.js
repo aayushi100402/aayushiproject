@@ -4,13 +4,14 @@ import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/Toolbar'
 import {Link, Router} from "react-router-dom";
 import logo from './../Assets/logo.svg';
-import { AccessAlarm } from '@material-ui/icons';
+
 
 
 export default function ButtonAppBar() {
   return (
     <div className="root">
-      <AppBar position="static">
+      <AppBar position="sticky" style={{backgroundcolor:"red"}}>
+        
         <Toolbar>
             <Link to={process.env.PUBLIC_URL + '/home'}>
                 <IconButton>
@@ -20,7 +21,7 @@ export default function ButtonAppBar() {
             </Link>
            
             
-          Title Goes Here
+         
             
         </Toolbar>
       </AppBar>

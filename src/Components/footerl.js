@@ -1,13 +1,15 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
 import Typography from '@material-ui/core/Typography';
-import FooterGrid from './footergrid';
-
+import Grid from '@material-ui/core/Grid';
+//These links are used in the footer//
 const useStyles = makeStyles((theme) => ({
   root: {
+    flexGrow: 1,
     '& > * + *': {
-      marginLeft: theme.spacing(10),
+      marginLeft: theme.spacing(5),
     },
   },
 }));
@@ -17,41 +19,58 @@ export default function Links() {
   const preventDefault = (event) => event.preventDefault();
 
   return (
+    
+    <div className={classes.root}>
+    <Grid container spacing={1}>
+         
+    
     <Typography className={classes.root}>
-      <Link href="#" onClick={preventDefault}>
-        Customer service 
+    <Grid item xs={3} sm={3} md={3}>
+      <Link color='secondary' href="#" onClick={preventDefault}>
+        Customer service
       </Link>
+      </Grid>
+      <Grid item xs={3} sm={3} md={3}>
       <Link href="#" onClick={preventDefault}>
-        Need help 
+        Need Help
       </Link>
+      </Grid>
+      <Grid item xs={3} sm={3} md={3}>
       <Link href="#" onClick={preventDefault}>
-        About us 
+        About us
       </Link>
+      </Grid>
+      <Grid item xs={4} sm={4} md={3}>
       <Link href="#" onClick={preventDefault}>
         FAQ
       </Link>
+      </Grid>
+      <Grid item xs={4} sm={4}  md={3}>
       <Link href="#" onClick={preventDefault}>
         Terms and conditions
       </Link>
+      </Grid>
+      <Grid item xs={4} sm={4} md={3}>
       <Link href="#" onClick={preventDefault}>
         Privacy policy
       </Link>
+      </Grid>
+      <Grid item xs={4} sm={4} md={3}>
       <Link href="#" onClick={preventDefault}>
-        E-waste policy 
+        E-Waste policy
       </Link>
+      </Grid>
+      <Grid item xs={4} sm={4} md={3}>
       <Link href="#" onClick={preventDefault}>
         Contact us
       </Link>
+      </Grid>
       
-      Whatsapp Us  <Link href="#" onClick={preventDefault}>
-        7000370003
-      </Link>
-
-      Call Us  <Link href="#" onClick={preventDefault}>
-        1800 890 1222
-      </Link>
-      
-          </Typography>
+    </Typography>
+    </Grid>
+    </div>
+    
+   
+   
   );
 }
-

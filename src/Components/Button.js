@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 }));
-
+ {/* category buttons on home page */}
 export default function ContainedButtons() {
   const classes = useStyles();
 
