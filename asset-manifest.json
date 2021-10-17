@@ -1,24 +1,32 @@
 {
   "files": {
     "main.css": "/aayushiproject/static/css/main.8b7249dd.chunk.css",
-    "main.js": "/aayushiproject/static/js/main.48b2609e.chunk.js",
-    "main.js.map": "/aayushiproject/static/js/main.48b2609e.chunk.js.map",
+    "main.js": "/aayushiproject/static/js/main.505385d8.chunk.js",
+    "main.js.map": "/aayushiproject/static/js/main.505385d8.chunk.js.map",
     "runtime-main.js": "/aayushiproject/static/js/runtime-main.a0c2ec2b.js",
     "runtime-main.js.map": "/aayushiproject/static/js/runtime-main.a0c2ec2b.js.map",
-    "static/js/2.fbc9d8fc.chunk.js": "/aayushiproject/static/js/2.fbc9d8fc.chunk.js",
-    "static/js/2.fbc9d8fc.chunk.js.map": "/aayushiproject/static/js/2.fbc9d8fc.chunk.js.map",
+    "static/js/2.b0e50e1f.chunk.js": "/aayushiproject/static/js/2.b0e50e1f.chunk.js",
+    "static/js/2.b0e50e1f.chunk.js.map": "/aayushiproject/static/js/2.b0e50e1f.chunk.js.map",
     "index.html": "/aayushiproject/index.html",
     "static/css/main.8b7249dd.chunk.css.map": "/aayushiproject/static/css/main.8b7249dd.chunk.css.map",
-    "static/js/2.fbc9d8fc.chunk.js.LICENSE.txt": "/aayushiproject/static/js/2.fbc9d8fc.chunk.js.LICENSE.txt",
+    "static/js/2.b0e50e1f.chunk.js.LICENSE.txt": "/aayushiproject/static/js/2.b0e50e1f.chunk.js.LICENSE.txt",
+    "static/media/Beauty2.b72aeac3.png": "/aayushiproject/static/media/Beauty2.b72aeac3.png",
+    "static/media/Electronics.d04b75ce.png": "/aayushiproject/static/media/Electronics.d04b75ce.png",
+    "static/media/Fashion.30e19d14.png": "/aayushiproject/static/media/Fashion.30e19d14.png",
+    "static/media/Grocery.c94affac.png": "/aayushiproject/static/media/Grocery.c94affac.png",
+    "static/media/Homekitchen.f150ee55.png": "/aayushiproject/static/media/Homekitchen.f150ee55.png",
+    "static/media/Jwellery.c1024bf1.png": "/aayushiproject/static/media/Jwellery.c1024bf1.png",
+    "static/media/Medicine.620b449f.png": "/aayushiproject/static/media/Medicine.620b449f.png",
     "static/media/apple.37fb9507.jpg": "/aayushiproject/static/media/apple.37fb9507.jpg",
     "static/media/colgate.d4993ce9.jpg": "/aayushiproject/static/media/colgate.d4993ce9.jpg",
+    "static/media/jiologo.d01c0420.png": "/aayushiproject/static/media/jiologo.d01c0420.png",
     "static/media/logo.355735b3.svg": "/aayushiproject/static/media/logo.355735b3.svg",
     "static/media/maggi.43495369.jpg": "/aayushiproject/static/media/maggi.43495369.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a0c2ec2b.js",
-    "static/js/2.fbc9d8fc.chunk.js",
+    "static/js/2.b0e50e1f.chunk.js",
     "static/css/main.8b7249dd.chunk.css",
-    "static/js/main.48b2609e.chunk.js"
+    "static/js/main.505385d8.chunk.js"
   ]
 }
