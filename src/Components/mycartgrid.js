@@ -34,7 +34,7 @@ export default function AutoGrid() {
           <Grid container spacing={1} align="left">
                     <Grid item xs={12} sm={12} md={12} xl={12}>
             <Link to={process.env.PUBLIC_URL + '/Home'}>
-            <Button variant="outlined">
+            <Button variant="string">
               <ClearIcon/>
               </Button>
               </Link>

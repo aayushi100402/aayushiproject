@@ -8,14 +8,18 @@ import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
+import { Link } from "react-router-dom";
+
  
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
   {/* carousel on home page */}
 const tutorialSteps = [
   {
-    
+   
     imgPath:
+   
       'https://cdn.flipshope.com/blog/wp-content/uploads/2020/10/Jiomart-wednesday-offers-and-deals-800x450.jpg' ,
+     
       
   },
   {
@@ -94,7 +98,9 @@ const useStyles = makeStyles((theme) => ({
         {tutorialSteps.map((step, index) => (
           <div key={step.label}>
             {Math.abs(activeStep - index) <= 1 ? (
+              <Link to={process.env.PUBLIC_URL + '/Wedoffer'}>
               <img className={classes.img} src={step.imgPath} alt={step.label} />
+              </Link>
             ) : null}
           </div>
         ))}

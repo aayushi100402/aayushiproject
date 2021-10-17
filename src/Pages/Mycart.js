@@ -7,6 +7,7 @@ import AutoGrid from '../Components/mycartgrid';
 import CustomizedSteppers from '../Components/stepperline';
 import ComplexGrid2 from '../Components/item2';
 import Grid from '@material-ui/core/Grid';
+import SimpleCardforitems from '../Components/blankcard';
 
 
 
@@ -24,20 +25,19 @@ export default function Mycart() {
 
         <AutoGrid />
         <CustomizedSteppers />
-        <Grid container spacing={2} align='center'>
+        <Grid container spacing={2} align='left'>
           <Grid item xs={12} sm={12} xl={12}>
             Grocery
           </Grid>
         </Grid>
         <Grid container spacing={2} align='center'>
           <Grid item xs={12} sm={12} xl={12}>
-
-            <ComplexGrid2 />
+          <SimpleCardforitems/>
           </Grid>
         </Grid>
         <Grid container spacing={2} align='center'>
           <Grid item xs={12} sm={12} xl={12}>
-            <ComplexGrid2 />
+           <SimpleCardforitems/>
           </Grid>
         </Grid>
 

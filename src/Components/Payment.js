@@ -36,7 +36,7 @@ export default function FullWidthGrid() {
         <Grid container spacing={0} align="right">
                     <Grid item xs={12} sm={12} md={12} xl={12}>
 
-          <Button variant="outlined">Make Payment</Button>
+          <Button variant="contained" color="red">Make Payment</Button>
           </Grid>
                 </Grid>
           </Paper>

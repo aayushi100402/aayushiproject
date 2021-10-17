@@ -7,6 +7,8 @@ import Wedcard from '../Components/Wedcard';
 
 import Grid from '@material-ui/core/Grid';
 import ComplexGrid2 from '../Components/item2';
+import SimpleCardforitems from '../Components/blankcard';
+import FloatingActionButtons from '../Components/Fab';
 
 
 
@@ -34,21 +36,26 @@ export default function Home() {
         </Grid>
 
         <TemporaryDrawer />
-        <Grid container spacing={1} align="center">
+       
+
+          <Grid container spacing={1} align="center">
           <Grid item xs={12} sm={12} md={12} xl={12}>
-            <ComplexGrid2 />
-            <ComplexGrid2 />
-            <ComplexGrid2 />
-            <ComplexGrid2 />
-            <ComplexGrid2 />
-            <ComplexGrid2 />
-            <ComplexGrid2 />
-            <ComplexGrid2 />
-            <ComplexGrid2 />
-            <ComplexGrid2 />
+        
+          
+            <SimpleCardforitems/>
+            <SimpleCardforitems/>
+            <SimpleCardforitems/>
+            <SimpleCardforitems/>
+            <SimpleCardforitems/>
+            <SimpleCardforitems/>
+            <SimpleCardforitems/>
+            <SimpleCardforitems/>
+            <SimpleCardforitems/>
+            <SimpleCardforitems/>
+            
 
 
-
+            <Grid/>
           </Grid>
         </Grid>
 

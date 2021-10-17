@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Button from '@material-ui/core/Button';
@@ -33,14 +32,14 @@ export default function ComplexGrid2() {
 
   return (
     <div className={classes.root}>
-      <Paper className={classes.paper}>
+     
         <Grid container spacing={0}>
           <Grid item>
             <ButtonBase className={classes.image}>
               <img className={classes.img} alt="complex" src="https://static.libertyprim.com/files/familles/pomme-large.jpg?1569271834" />
             </ButtonBase>
           </Grid>
-          <Grid item xs={50} sm container>
+          <Grid item xs={0} sm container>
             <Grid item xs container direction="column" spacing={2}>
               <Grid item xs>
                 <Typography gutterBottom variant="subtitle1">
@@ -60,7 +59,7 @@ export default function ComplexGrid2() {
               </Grid>
             </Grid>
           
-            <Grid item xs container direction="column" spacing={2}>
+            <Grid item xs container direction="column" spacing={0}>
               <Grid item xs>
               <Button variant="round">
                      <AddCircleRoundedIcon/></Button>
@@ -76,7 +75,7 @@ export default function ComplexGrid2() {
             
           </Grid>
         </Grid>
-      </Paper>
+      
     </div>
   );
 }

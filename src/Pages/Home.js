@@ -5,26 +5,8 @@ import SwipeableTextMobileStepper from '../Components/carousel1';
 import AutoGridNoWrap from '../Components/Maxsavingdeal';
 import SingleLineImageList from '../Components/Imagelist';
 import Carousel2 from '../Components/Carousel2';
-import CenteredGrid from '../Components/basicgrid';
+import CenteredGrid from '../Components/basicgridfooter';
 import Grid from '@material-ui/core/Grid';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 export default function Home() {
   return (
@@ -37,6 +19,7 @@ export default function Home() {
               
             </p>
          {/*category buttons on home page*/}
+        
             <ContainedButtons/>
             
             <Grid container spacing={2}align= 'center'>

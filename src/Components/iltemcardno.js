@@ -72,7 +72,7 @@ export default function MediaControlCard() {
             Mac Miller
           </Typography>
           </Grid>
-         </Grid>
+         </Grid> 
          
         </CardContent>
 
