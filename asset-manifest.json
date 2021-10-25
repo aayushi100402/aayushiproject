@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/aayushiproject/static/css/main.8b7249dd.chunk.css",
-    "main.js": "/aayushiproject/static/js/main.505385d8.chunk.js",
-    "main.js.map": "/aayushiproject/static/js/main.505385d8.chunk.js.map",
+    "main.css": "/aayushiproject/static/css/main.1b661b29.chunk.css",
+    "main.js": "/aayushiproject/static/js/main.c95d8c1f.chunk.js",
+    "main.js.map": "/aayushiproject/static/js/main.c95d8c1f.chunk.js.map",
     "runtime-main.js": "/aayushiproject/static/js/runtime-main.a0c2ec2b.js",
     "runtime-main.js.map": "/aayushiproject/static/js/runtime-main.a0c2ec2b.js.map",
-    "static/js/2.b0e50e1f.chunk.js": "/aayushiproject/static/js/2.b0e50e1f.chunk.js",
-    "static/js/2.b0e50e1f.chunk.js.map": "/aayushiproject/static/js/2.b0e50e1f.chunk.js.map",
+    "static/js/2.0d474bd5.chunk.js": "/aayushiproject/static/js/2.0d474bd5.chunk.js",
+    "static/js/2.0d474bd5.chunk.js.map": "/aayushiproject/static/js/2.0d474bd5.chunk.js.map",
     "index.html": "/aayushiproject/index.html",
-    "static/css/main.8b7249dd.chunk.css.map": "/aayushiproject/static/css/main.8b7249dd.chunk.css.map",
-    "static/js/2.b0e50e1f.chunk.js.LICENSE.txt": "/aayushiproject/static/js/2.b0e50e1f.chunk.js.LICENSE.txt",
+    "static/css/main.1b661b29.chunk.css.map": "/aayushiproject/static/css/main.1b661b29.chunk.css.map",
+    "static/js/2.0d474bd5.chunk.js.LICENSE.txt": "/aayushiproject/static/js/2.0d474bd5.chunk.js.LICENSE.txt",
     "static/media/Beauty2.b72aeac3.png": "/aayushiproject/static/media/Beauty2.b72aeac3.png",
     "static/media/Electronics.d04b75ce.png": "/aayushiproject/static/media/Electronics.d04b75ce.png",
     "static/media/Fashion.30e19d14.png": "/aayushiproject/static/media/Fashion.30e19d14.png",
@@ -18,15 +18,23 @@
     "static/media/Jwellery.c1024bf1.png": "/aayushiproject/static/media/Jwellery.c1024bf1.png",
     "static/media/Medicine.620b449f.png": "/aayushiproject/static/media/Medicine.620b449f.png",
     "static/media/apple.37fb9507.jpg": "/aayushiproject/static/media/apple.37fb9507.jpg",
+    "static/media/biscuit.ee58e962.jpg": "/aayushiproject/static/media/biscuit.ee58e962.jpg",
+    "static/media/bread.63ff4ea4.jpg": "/aayushiproject/static/media/bread.63ff4ea4.jpg",
+    "static/media/choco.0a1eb86f.jpg": "/aayushiproject/static/media/choco.0a1eb86f.jpg",
+    "static/media/coffee.ba38a529.jpg": "/aayushiproject/static/media/coffee.ba38a529.jpg",
     "static/media/colgate.d4993ce9.jpg": "/aayushiproject/static/media/colgate.d4993ce9.jpg",
+    "static/media/grapes.da885ebd.jpg": "/aayushiproject/static/media/grapes.da885ebd.jpg",
     "static/media/jiologo.d01c0420.png": "/aayushiproject/static/media/jiologo.d01c0420.png",
+    "static/media/lays.65706f1b.jpg": "/aayushiproject/static/media/lays.65706f1b.jpg",
     "static/media/logo.355735b3.svg": "/aayushiproject/static/media/logo.355735b3.svg",
-    "static/media/maggi.43495369.jpg": "/aayushiproject/static/media/maggi.43495369.jpg"
+    "static/media/maggi.43495369.jpg": "/aayushiproject/static/media/maggi.43495369.jpg",
+    "static/media/nana.bf5205d5.jpg": "/aayushiproject/static/media/nana.bf5205d5.jpg",
+    "static/media/orange.b1fb2d6c.jpg": "/aayushiproject/static/media/orange.b1fb2d6c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a0c2ec2b.js",
-    "static/js/2.b0e50e1f.chunk.js",
-    "static/css/main.8b7249dd.chunk.css",
-    "static/js/main.505385d8.chunk.js"
+    "static/js/2.0d474bd5.chunk.js",
+    "static/css/main.1b661b29.chunk.css",
+    "static/js/main.c95d8c1f.chunk.js"
   ]
 }
