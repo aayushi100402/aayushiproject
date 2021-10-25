@@ -4,14 +4,18 @@ import Card from '@material-ui/core/Card';
 
 import CardContent from '@material-ui/core/CardContent';
 
-import ComplexGrid2 from './item2';
+import ComplexGrid2 from './item2--';
 import Grid from '@material-ui/core/Grid';
 import FloatingActionButtons from './Fab';
 import CenteredGridi from './basicgriditem';
+import CenteredGrid from './basicgridfooter';
+import SpacingGrid from './Paper 3';
+import Imp from './Imp1';
 
 const useStyles = makeStyles({
   root: {
     minWidth: 50,
+    backgroundColor:'	#fafafa'
     
   },
   bullet: {
@@ -39,7 +43,9 @@ export default function SimpleCardforitems() {
        
 
       <CardContent>
-           <CenteredGridi/>
+           <Imp/>
+           
+
            </CardContent>
     
     </Card>

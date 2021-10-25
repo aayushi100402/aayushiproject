@@ -35,7 +35,7 @@ export default function CheckboxList() {
 
   return (
     <List className={classes.root}>
-      {[0, 1, 2, 3, 4].map((value) => {
+      {[1].map((value) => {
         const labelId = `checkbox-list-label-${value}`;
 
         return (
@@ -49,13 +49,14 @@ export default function CheckboxList() {
                 inputProps={{ 'aria-labelledby': labelId }}
               />
             </ListItemIcon>
-            <ListItemText id={labelId} primary={`Line item ${value + 1}`} />
-            <ListItemSecondaryAction>
-             
-               
-             
-            </ListItemSecondaryAction>
+            <ListItemText id={labelId} primary={`Popularity `} />
+            
+           
+           
           </ListItem>
+          
+          
+          
         );
       })}
     </List>

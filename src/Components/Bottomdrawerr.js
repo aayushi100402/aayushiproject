@@ -22,7 +22,7 @@ const useStyles = makeStyles({
   },
 });
  {/*The left drawer in the app bar */}
-export default function  LSwipeableTemporaryDrawer() {
+export default function  SwipeableTemporaryDrawer2() {
   const classes = useStyles();
   const [state, setState] = React.useState({
     top: false,
@@ -49,7 +49,7 @@ export default function  LSwipeableTemporaryDrawer() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {['Profile', 'Grocery', 'Home and kitchen', 'Fashion','Jwellery'].map((text, index) => (
+        {['Popularity', 'Discount', 'Alphabetical', 'Customer top rated','Price:high to low',' Price:low to high'].map((text, index) => (
           <ListItem>
            
             <ListItemText primary={text} />
@@ -57,23 +57,16 @@ export default function  LSwipeableTemporaryDrawer() {
           </ListItem>
         ))}
       </List>
-      <Divider />
-      <List>
-        {['Beauty', 'Electronics', 'Medicine'].map((text, index) => (
-          <ListItem button key={text}>
-           
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
-      </List>
+     
+     
     </div>
   );
 
   return (
     <div>
-      {['left'].map((anchor) => (
+      {['bottom'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <MenuIcon onClick={toggleDrawer(anchor, true)}>{anchor}</MenuIcon>
+           <Button onClick={toggleDrawer(anchor, true)}>Sort by</Button>
           <SwipeableDrawer
             anchor={anchor}
             open={state[anchor]}
@@ -84,6 +77,7 @@ export default function  LSwipeableTemporaryDrawer() {
           </SwipeableDrawer>
         </React.Fragment>
       ))}
+        
     </div>
   );
 }

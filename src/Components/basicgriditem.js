@@ -4,7 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
 
-import ComplexGrid2 from './item2';
+import ComplexGrid2 from './item2--';
 
 const useStyles = makeStyles((theme) => ({
   root: {

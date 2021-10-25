@@ -1,81 +1,80 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Button from '@material-ui/core/Button';
 import AddCircleRoundedIcon from '@material-ui/icons/AddCircleRounded';
 import RemoveRoundedIcon from '@material-ui/icons/RemoveRounded';
+import biscuit from '../Assets/biscuit.jpg'
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
   paper: {
     padding: theme.spacing(2),
-    margin: 'auto',
-    maxWidth: 500,
-  },
-  image: {
-    width: 128,
-    height: 128,
-  },
-  img: {
-    margin: 'auto',
-    display: 'block',
-    maxWidth: '100%',
-    maxHeight: '100%',
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
   },
 }));
- {/*Item cards */}
-export default function ComplexGrid2() {
+
+export default function Imp2() {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
-     
-        <Grid container spacing={0}>
-          <Grid item>
-            <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="complex" src="https://static.libertyprim.com/files/familles/pomme-large.jpg?1569271834" />
+      <Grid container spacing={3}>
+        <Grid item xs>
+        <ButtonBase className={classes.image}>
+            <img src = {biscuit} className= "image" alt= "biscuit" height="100" width="100" align="left"/>
+
             </ButtonBase>
-          </Grid>
-          <Grid item xs={0} sm container>
-            <Grid item xs container direction="column" spacing={2}>
-              <Grid item xs>
-                <Typography gutterBottom variant="subtitle1">
-                  Apples-Shimla
+        </Grid>
+        <Grid item xs>
+        <Typography gutterBottom variant="subtitle1">
+                  Biscuits
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                3pcs (500g approx)
+                150g ( 1 packet )
                 </Typography>
-                <Typography variant="body2" color="textSecondary">
+                <Typography variant="body2" color="textPrimary">
                   In stock
                 </Typography>
-              </Grid>
-              <Grid item>
                 <Typography variant="body2" style={{ cursor: 'pointer' }}>
-                  Rs 110.00
+                  Rs 28.00
                 </Typography>
-              </Grid>
-            </Grid>
-          
-            <Grid item xs container direction="column" spacing={0}>
-              <Grid item xs>
+        </Grid>
+        <Grid item xs>
+        <Grid item xs>
               <Button variant="round">
                      <AddCircleRoundedIcon/></Button>
                
+              </Grid>
+             
+             
+             
+              <Grid item>
+                <Button variant="round">
+                     <RemoveRoundedIcon/></Button>
               </Grid>
               <Grid item>
                 <Button variant="round">
                      <RemoveRoundedIcon/></Button>
               </Grid>
-            </Grid>
-            
-            
-            
-          </Grid>
+              <Grid item>
+                <Button variant="round">
+                     <RemoveRoundedIcon/></Button>
+              </Grid>
         </Grid>
-      
+      </Grid>
+      <Grid container spacing={3}>
+     
+        
+       
+      </Grid>
     </div>
   );
 }
+

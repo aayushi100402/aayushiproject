@@ -14,52 +14,57 @@ const tutorialSteps = [
   {
    
     imgPath:
-      'http://educratsweb.com/l.php?url=https://www.jiomart.com/images/cms/aw_rbslider/slides/1590177884_491551662.jpg',
+    'https://www.jiomart.com/images/cms/aw_rbslider/slides/1633087998_Sale-live-now-756-x-325-Apporoved-1_oct.jpg' ,
   },
   {
     
     imgPath:
-      'https://www.jiomart.com/images/cms/aw_rbslider/slides/1590178009_491491289.jpg',
+      
+      'https://dog55574plkkx.cloudfront.net/images/jiomart-grocery-offers.jpg',
   },
   {
    
     imgPath:
-      'https://www.jiomart.com/images/cms/aw_rbslider/slides/1590172163_490915877.jpg',
+      'https://cdn.grabon.in/gograbon/images/web-images/uploads/1618551213743/jiomart-offers.jpg',
   },
   {
     
     imgPath:
-      'https://www.jiomart.com/images/cms/aw_rbslider/slides/1589896887_banner_07.jpg',
+      'https://trickunlimited.com/wp-content/uploads/2020/07/Jiomart-Offers-1.jpeg',
   },
   {
    
     imgPath:
-      'https://www.jiomart.com/images/cms/aw_rbslider/slides/1590172121_490249971.jpg',
+    'https://1.bp.blogspot.com/-VcTLEWdZRj8/X6ppOG415hI/AAAAAAAAH5Y/CqHkRahtVGQtJmpxFY2K9JRxGAzVvfNrACLcBGAsYHQ/s1440/0-bannerD.jpg',
   },
+
+
 ];
  
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 400,
+    maxWidth: 1200,
     flexGrow: 1,
   },
   header: {
     display: 'flex',
     alignItems: 'center',
-    height: 50,
+    height: 0,
     paddingLeft: theme.spacing(4),
     backgroundColor: theme.palette.background.default,
+    margin: 10,
   },
   img: {
-    height: 255,
-    maxWidth: 400,
-    overflow: 'hidden',
+    height: '100%',
     display: 'block',
+    maxWidth: 1200,
+    overflow: 'hidden',
     width: '100%',
+
   },
 }));
  
-export default function Carousel2() {
+export default function Carousel3() {
   const classes = useStyles();
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);

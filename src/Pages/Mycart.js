@@ -5,9 +5,10 @@ import OutlinedCard from '../Components/Paymentdetails';
 import FullWidthGrid from '../Components/Payment';
 import AutoGrid from '../Components/mycartgrid';
 import CustomizedSteppers from '../Components/stepperline';
-import ComplexGrid2 from '../Components/item2';
+import ComplexGrid2 from '../Components/item2--';
 import Grid from '@material-ui/core/Grid';
-import SimpleCardforitems from '../Components/blankcard';
+import SimpleCardforitems from '../Components/Blankcard1';
+import SimpleCardforitems10 from '../Components/Blankcard 10';
 
 
 
@@ -37,7 +38,7 @@ export default function Mycart() {
         </Grid>
         <Grid container spacing={2} align='center'>
           <Grid item xs={12} sm={12} xl={12}>
-           <SimpleCardforitems/>
+           <SimpleCardforitems10/>
           </Grid>
         </Grid>
 

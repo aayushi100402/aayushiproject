@@ -1,12 +1,14 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import ContainedButtons from '../Components/Button';
-import SwipeableTextMobileStepper from '../Components/carousel1';
+import SwipeableTextMobileStepper from '../Components/Carousel 1';
 import AutoGridNoWrap from '../Components/Maxsavingdeal';
 import SingleLineImageList from '../Components/Imagelist';
-import Carousel2 from '../Components/Carousel2';
+import Carousel2 from '../Components/Carousel 2';
 import CenteredGrid from '../Components/basicgridfooter';
 import Grid from '@material-ui/core/Grid';
+import Carousel3 from '../Components/Carousel 3';
+import Carousel4 from '../Components/Carousel 4';
 
 export default function Home() {
   return (
@@ -26,11 +28,11 @@ export default function Home() {
            <Grid item xs={12}sm={12}xl={12}>
             <SwipeableTextMobileStepper/>
             <Carousel2/>
-            <Carousel2/>
+            <Carousel3/>
             <AutoGridNoWrap/>
             <SingleLineImageList/>
             <AutoGridNoWrap/>
-            <Carousel2/>
+            <Carousel4/>
             <AutoGridNoWrap/>
             <CenteredGrid/>
             </Grid>
